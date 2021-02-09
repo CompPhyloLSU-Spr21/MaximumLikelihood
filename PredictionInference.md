@@ -31,7 +31,7 @@ binomVals[1]
 
 ## Inference
 
-Instead of having parameter values in hand and wishing to predict possible values that might be sampled from a distribution, we may instead want to learn something about the distribution based on observed data. In this case, instead of drawing values from a distribution with known parameters, we might like to know the probability of the values we've already observed as we change the possible parameters of the distribution.
+In the case of inference, we instead want to learn something about the distribution and its parameter values based on observed data. We are interested in the probability of the data we've already observed as we change the parameter values of the distribution (i.e., the likelihood of different parameter values).
 
 For example, imagine that we've collected these data about the number of successes from a binomial with 10 trials.
 
